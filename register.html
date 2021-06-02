@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+<title>register </title>
+<link rel="stylesheet" type="text/css" href="form.css" title="style" />
+<script type = "text/javascript"  src = "submit.js" >
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+<meta charset="utf-8">
+
+</head>
+<body>
+<form action="index.php"  method="post">
+<button class = "logbutton" >Login</button>
+</form>
+<h1>Registration </h1>
+
+<p><br/> Join our website for free tutoring. You can help yourself and help people around you in school by joining our website to help us to make school easy for everyone.
+</p>
+
+<form action = "submit.php" method="POST" >
+
+<div class="right">
+<p>
+School: <input type = "text" name = "school" id= "school"  /> <br />
+Security Question: What is your mother's maiden name?<br />
+<input type = "text" name = "security" id="security" />
+<br /><br/>
+<input class ="buttons" id="submit" type ="submit" value="Submit" />
+<input class ="buttons" type="reset" value="Reset" />
+</p>
+</div>
+
+<div class="left">
+<p>
+Last name: <input type = "text" name = "Last_name" id="Last_name" /> <br />
+First name: <input type = "text" name = "First_name" id="First_name" /> <br />
+User name: <input type = "text" name = "User_name"  id="username" /> 
+<span id="msgbox"></span> <br />
+Email: <input type = "text" name = "Emails" id="Email" /> 
+<span id="emailisused"></span><br />
+Re-enter email:<input type = "text" name = "Emails2" id="Emails2" /><br />
+Password: <input type = "password" name = "mypass" id="mypass" /> <br />
+Re-enter Password: <input type = "password" name = "mypass2" id="mypass2"  /><br />
+</p>
+</div>
+
+
+
+</form>
+
+
+
+</body>
+</html>

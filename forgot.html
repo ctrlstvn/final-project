@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title>Reset Password</title>
+<link rel="stylesheet" type="text/css" href="form.css" title="style" />
+<script type = "text/javascript"  src = "password.js" >
+</script>
+
+</head>
+<body class="center">
+<h1>Forgot your password?</h1>
+
+<form action = "password.php" method="POST">
+<p>
+Please enter your Email and answer the security question for your account.
+</p>
+<p>
+<br />
+Email:
+<input type = "text" name = "Emails" id = "Email" size = "25" maxlength="25" /><br />
+Security Question: What is your mother's maiden name? <br/>
+<input type = "text" name = "security" id="security" size = "25" maxlength="25" /><br />
+</p>
+<input class="buttons" type="submit" id= "submit" value="Get Password" />
+</form>
+
+
+
+</body>
+</html>

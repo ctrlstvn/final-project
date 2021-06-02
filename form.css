@@ -1,0 +1,100 @@
+
+body{
+	background-color: #474747;
+	color: white;
+	padding: 0.5em;
+	margin: 1em auto;
+	width: 700px;
+}
+
+h1{
+	color: #F8DE7E;
+	text-align: center;
+	font-size: 50pt;
+}
+
+.right{
+	float: right;
+	line-height: 250%;
+ }
+
+.left{
+	 line-height: 250%;
+ }
+
+ .buttons{
+	 background-color: #F8DE7E;
+	 font:arial;
+	 color: black;
+	 font-weight: bold;
+	 padding: 10px 32px;
+	 border-radius: 10px;
+	 margin-left: 2px;
+	 margin-right: 2px;
+ }
+ .logbutton{
+	 background-color: white;
+	 font:arial;
+	 color: blue;
+	 padding: 5px 19px;
+	 border-radius: 10px;
+	 float: right;
+ }
+
+.homepage{
+	text-align: center;
+	line-height: 250%;
+}
+
+.error{
+	font-size:8px;
+	color: red;
+	line-height: 50%;
+}
+
+.head{
+   background-color:#F8DE7E;
+   color:black;
+   line-height: 250%;
+   word-spacing: 270px;
+}
+
+.bottomh{
+	border-bottom-style: solid;
+	border-bottom-color: #F8DE7E;
+}
+.green{
+	background-color: green;
+}
+.border{
+	border-style: solid;
+	border-color: grey;
+	float: right;
+	font-size: 20px;
+}
+.clearHeader{
+  clear: right;
+}
+.center{
+	text-align: center;
+}
+.rightW{
+	text-align: right;
+    color: white; 
+}
+.scheduleForm {
+	font-size: 14pt;
+	border-style: solid;
+	border-color: #F8DE7E;
+	border-width: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 3%;
+	padding-bottom: 8%:;
+}
+
+
+.link
+{
+	color: white;
+}
